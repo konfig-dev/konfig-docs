@@ -60,7 +60,7 @@ Fill out a name and check the **Required** box to make sure that our field is ne
 
 ![Add Number Field Button](/img/add-number-field-button.png)
 
-Now our transaction product has the fields **SKU Name** and **Price**. Assuming we finished the [Create Content](/tutorials/create-content) tutorial, lets create a [Content Field](/reference/field/content) to reference our in-game Content.
+Now our transaction product has the fields **SKU Name** and **Price**. Assuming we finished the [Create Content](/tutorials/create-content) tutorial, lets create a [Content Field](/reference/field/types/content) to reference our in-game Content.
 
 Click **Add Field** and select **Content**
 
