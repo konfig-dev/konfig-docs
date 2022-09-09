@@ -6,7 +6,7 @@ title: Create a SKU [LOM]
 # Create a SKU
 
 :::tip Before doing this Tutorial
-Complete the [Create Content](/tutorials/create-content) and [Create a Type](/tutorials/create-a-type) tutorial.
+Complete the [Import Content](/tutorials/create-content) and [Create a Type](/tutorials/create-a-type) tutorial.
 :::
 
 ## 1. Navigate to the SKU Tab
@@ -48,7 +48,10 @@ Now lets correctly configure our SKU and click **Save**.
 ## 5. Schedule your SKU
 
 Once your SKU is saved, you can be rest assured that you will not lose any
-progress. But now you want to actually push our SKU to an environment. Lets push our SKU to `Development`. Click on the **Schedule** dropdown and select `On`. There are other values we can learn about [here](/reference/sku/scheduling)
+progress. But now you want to actually push your SKU to an environment. Lets
+push to `Development`. Since `Development` is already selected just click on the
+**Schedule** dropdown and select `On`. There are other values we can learn about
+[here](/reference/sku/scheduling)
 
 ![Schedule SKU](/img/schedule-sku.png)
 

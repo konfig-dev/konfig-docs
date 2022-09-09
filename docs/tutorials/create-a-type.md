@@ -6,7 +6,7 @@ title: Create a Type [Dev]
 # Create a Type
 
 :::tip Before doing this Tutorial
-Complete the [Create Content](/tutorials/create-content) tutorial.
+Complete the [Import Content](/tutorials/create-content) tutorial.
 :::
 
 In Konfig, a **Type** describes the data model for a SKU. Konfig
@@ -74,7 +74,7 @@ want our product to be offered at a negative price. Once you are done, click
 
 ![Add Number Field Button](/img/add-number-field-button.png)
 
-Now our transaction product has the fields **SKU Name** and **Price**. Assuming we finished the [Create Content](/tutorials/create-content) tutorial, lets create a [Content Field](/reference/field/types/content) to reference our in-game Content.
+Now our transaction product has the fields **SKU Name** and **Price**. Assuming we finished the [Import Content](/tutorials/create-content) tutorial, lets create a [Content Field](/reference/field/types/content) to reference our in-game Content.
 
 Click **Add Field** and select **Content**
 

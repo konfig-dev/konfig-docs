@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Creating Content
+# Importing Content
 
 ### Structure of Content
 

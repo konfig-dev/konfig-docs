@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-title: Create Content [Dev]
+title: Import Content [Dev]
 ---
 
-# Create Content
+# Import Content
 
 To reference your game's content in Konfig, you first need to setup your content
 in Konfig. In this tutorial we will add some dummy content to reference in our

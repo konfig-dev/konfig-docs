@@ -6,7 +6,7 @@ title: Instrument your Store [Dev]
 # Instrument your Store
 
 :::tip Before instrumenting your store
-Go through the [Create Content](/tutorials/create-content), [Create a Type](/tutorials/create-a-type), and [Create a SKU](/tutorials/create-a-sku) tutorials.
+Go through the [Import Content](/tutorials/create-content), [Create a Type](/tutorials/create-a-type), and [Create a SKU](/tutorials/create-a-sku) tutorials.
 :::
 
 Konfig's CDN is used to retrieve currently scheduled SKUs for your store.
