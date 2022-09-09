@@ -1,4 +1,5 @@
 # Content Field
+A content field is used to configure a reference to an existing piece of content in your game like an item or a character.
 
 ![Content Field](/img/content-field.png)
 
