@@ -1,4 +1,5 @@
 # Number Field
+A number field is used by an LOM to input a float or integer as a value
 
 ![Number Field](/img/add-number-field.png)
 
