@@ -9,6 +9,8 @@ title: Instrument your Store [Dev]
 Go through the [Import Content](/tutorials/create-content), [Create a Type](/tutorials/create-a-type), and [Create a SKU](/tutorials/create-a-sku) tutorials.
 :::
 
+## Konfig's CDN
+
 Konfig's CDN is used to retrieve currently scheduled SKUs for your store.
 Konfig's CDN accepts query parameters to help you test SKUs for you game's `Development`, `Staging`, and `Production `environments. To explore, see our [API Reference](https://docs.konfigthis.com/reference/get_skus)
 
@@ -25,6 +27,10 @@ response = requests.get(url, headers=headers)
 
 print(response.text)
 ```
+
+## Platform Agnostic
+
+Konfig's is platform agnostic as it can server data to any client whether is Browser, Android, or iOS.
 
 ### Example
 

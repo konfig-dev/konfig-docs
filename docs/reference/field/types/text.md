@@ -1,5 +1,10 @@
+---
+sidebar_position: 0
+---
+
 # Text Field
-Text fields are used to allow an LOM to input a string as a value
+
+A text field is used to allow an LOM to input a string as a value
 
 ![Text Field](/img/add-text-field.png)
 
