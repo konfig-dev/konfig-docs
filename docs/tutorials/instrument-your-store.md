@@ -30,7 +30,7 @@ print(response.text)
 
 ## Platform Agnostic
 
-Konfig's is platform agnostic as it can server data to any client whether is Browser, Android, or iOS.
+Konfig's is platform agnostic as it can server data to any client whether it's Browser, Android, or iOS.
 
 ### Example
 
