@@ -91,4 +91,4 @@ when configuring a SKU. After you are done, click **Add**.
 You should see 3 fields. Click **Save** in the top-right corner.
 ![Save Type](/img/save-type.png)
 
-Congrats, you have created your first Type! Now lets push our first SKU in the next tutorial.
+Congrats, you have created your first Type! Now lets create and schedule a SKU in the next tutorial.

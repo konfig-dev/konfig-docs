@@ -17,7 +17,7 @@ Click on the **SKU** tab in the top-left corner.
 
 ## 2. Create a SKU
 
-Click on the **Create SKU** button and select your new Type.
+Click on the **Create SKU** button and select the `Transaction Product` Type we created in the previous tutorial.
 
 ![Create SKU](/img/create-transaction-product.png)
 
@@ -33,7 +33,7 @@ Click **Save** without entering anything.
 
 Cool, it looks like Konfig is applies the validations we made in the [Create a Type](/tutorials/create-a-type) in real-time!
 
-Lets try entering an invalid value for **Price**, `-5` should do the trick.
+Lets try entering an invalid value for **Price**. Lets try `-5`.
 
 ![Test Price](/img/test-price.png)
 
