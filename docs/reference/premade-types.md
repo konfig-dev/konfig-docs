@@ -22,7 +22,7 @@ Gachas (or loot boxes) are a special type of conversion product where the reward
 
 ### Reward
 
-Rewards are what a player receives in return for buying a transaction product, hitting a conversion product or gacha, completing a quest, etc. We recommend that you insert this type as a list in to your transaction product, conversion product, etc data model.
+Rewards are what a player receives in return for buying a transaction product, hitting a conversion product or gacha, completing a quest, etc. We recommend that you insert this type as a list in to your transaction product's, conversion product's, etc data model.
 
 ### Quest
 
