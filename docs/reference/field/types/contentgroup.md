@@ -1,4 +1,4 @@
-# Content Group
+# Content Group Field
 A content group field is used to configure a reference to an existing group of content in your game like all rare swords or all characters.
 
 ## Common Use Cases:
