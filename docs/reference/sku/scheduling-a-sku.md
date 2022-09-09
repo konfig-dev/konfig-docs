@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Scheduling a SKU
 
-Konfig has pre-defined ways of scheduling a SKU.
+Konfig has pre-defined ways of scheduling a SKU. You can always check the **Schedule View** if you're not sure what dates and times you have configured your SKU to run for.
 
 ## **Off**: SKU is turned off and won't be returned by the API
 
