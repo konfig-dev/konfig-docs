@@ -1,4 +1,5 @@
 # Text Field
+Text fields are used to allow an LOM to input a string as a value
 
 ![Text Field](/img/add-text-field.png)
 
