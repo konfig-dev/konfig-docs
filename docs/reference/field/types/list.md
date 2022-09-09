@@ -3,7 +3,6 @@
 A list field is used to configure a variable number of items to the data model.
 
 ![List Field](/img/list-field.png)
-![Boolean Field](/img/boolean-field.png)
 
 ## Common Use Cases
 
