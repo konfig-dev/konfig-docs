@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Create a Type
@@ -57,7 +57,3 @@ Fill out a name and check the **Required** box to make sure that our field is ne
 ![Add Number Field Button](/img/add-number-field-button.png)
 
 Now our transaction product has the fields **SKU Name** and **Price**. Lets now setup [Content](/reference/content/what-is-content) for our game so we can create a [Content Field](/reference/field/types/content)
-
-Go to the **Content** tab.
-
-![Content Tab](/img/content-tab.png)
