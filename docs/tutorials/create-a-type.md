@@ -9,7 +9,7 @@ title: Create a Type [Dev]
 Complete the [Import Content](/tutorials/create-content) tutorial.
 :::
 
-In Konfig, a **Type** describes the data model for a SKU. Konfig
+In Konfig, a **Type** describes the data model for a SKU or other live event. Konfig
 uses Types to generate input forms and validate data.
 
 [Learn more about Types here](/reference/type/what-is-a-type)
