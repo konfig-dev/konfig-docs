@@ -51,7 +51,7 @@ Once your SKU is saved, you can be rest assured that you will not lose any
 progress. But now you want to actually push your SKU to an environment. Lets
 push to `Development`. Since `Development` is already selected just click on the
 **Schedule** dropdown and select `On`. There are other values we can learn about
-[here](/reference/sku/scheduling)
+[here](/reference/sku/schedule-view)
 
 ![Schedule SKU](/img/schedule-sku.png)
 
