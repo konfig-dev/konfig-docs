@@ -10,7 +10,7 @@ store. Konfig is designed for speed, flexibility, and reliability. Konfig frees
 your engineers from managing a backend, building custom input forms, manually
 validating data, and building revenue generating features like user
 segmentation. Engineers can think of Konfig as a headless CMS built specifically
-for your store. Konfig also saves your LiveOps Manager (LOM) time by giving
+for your store. Konfig also saves your Live Ops Manager (LOM) time by giving
 them a fast and easy-to-use tool for creating SKUs. Konfig is also where LOMs
 and Devs can come together to collaborate on each other's work in a single
 interface.
