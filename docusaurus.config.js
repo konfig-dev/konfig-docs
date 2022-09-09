@@ -88,15 +88,15 @@ const config = {
               },
             ],
           },
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Introduction",
-                to: "/docs/intro",
-              },
-            ],
-          },
+          // {
+          //   title: "Docs",
+          //   items: [
+          //     {
+          //       label: "Introduction",
+          //       to: "/docs/intro",
+          //     },
+          //   ],
+          // },
           // {
           //   title: "Community",
           //   items: [
