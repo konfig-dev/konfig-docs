@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+title: Instrument your Store [Dev]
 ---
 
 # Instrument your Store
