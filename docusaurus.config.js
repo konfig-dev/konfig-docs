@@ -13,6 +13,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
+  plugins: [require.resolve("docusaurus-plugin-image-zoom")],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -33,18 +34,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/konfig-dev/konfig-docs/tree/master/",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
+        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -61,33 +57,24 @@ const config = {
           alt: "Konfig Logo",
           src: "img/favicon.png",
         },
-        items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Docs",
-          },
-          // { to: "/blog", label: "Blog", position: "left" },
-          // {
-          //   href: "https://github.com/facebook/docusaurus",
-          //   label: "GitHub",
-          //   position: "right",
-          // },
-        ],
+        // items: [
+        //   // {
+        //   //   type: "doc",
+        //   //   docId: "intro",
+        //   //   position: "left",
+        //   //   label: "Docs",
+        //   // },
+        //   // { to: "/blog", label: "Blog", position: "left" },
+        //   // {
+        //   //   href: "https://github.com/facebook/docusaurus",
+        //   //   label: "GitHub",
+        //   //   position: "right",
+        //   // },
+        // ],
       },
       footer: {
         style: "light",
         links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Getting Started",
-                to: "/docs/intro",
-              },
-            ],
-          },
           {
             title: "About Us",
             items: [
@@ -98,6 +85,15 @@ const config = {
               {
                 label: "LinkedIn",
                 to: "https://www.linkedin.com/company/konfig",
+              },
+            ],
+          },
+          {
+            title: "Docs",
+            items: [
+              {
+                label: "Introduction",
+                to: "/docs/intro",
               },
             ],
           },
@@ -137,6 +133,17 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      zoom: {
+        selector: ".markdown :not(em) > img",
+        background: {
+          light: "rgb(255, 255, 255)",
+          dark: "rgb(50, 50, 50)",
+        },
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        config: {
+          margin: 100,
+        },
       },
     }),
 };
