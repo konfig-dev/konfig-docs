@@ -7,7 +7,7 @@ A content field is used to configure a reference to an existing piece of content
 
 1. **Items** for rewards
 2. **Currency** for a gacha or conversion product
-3. 3. Setting **Character restrictions** in PvP or PvE
+3. Setting **Character restrictions** in PvP or PvE
 
 ## Important Considerations
 
