@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # What is Content?
 
 Often times you need to configure SKUs that have direct references to in-game

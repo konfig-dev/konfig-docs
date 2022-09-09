@@ -7,11 +7,11 @@ sidebar_position: 1
 To setup Konfig to work with your game, you first need to upload any in-game
 Content that needs to be references from a SKU.
 
-## Click the Content Tab
+## 1. Click the Content Tab
 
 ![Content Tab](/img/content-tab.png)
 
-## Click Create Content
+## 2. Create Content
 
 ![Create Content Button](/img/create-content-button.png)
 
@@ -19,34 +19,26 @@ You will be presented with two ways of creating content.
 
 ![Create Content Tabs](/img/create-content-tabs.png)
 
-Lets learn about the structure of Content so that we can better understand the two ways of creating Content.
+You can learn about both ways [here](/reference/content/creating-content) but for now lets manually upload Content.
 
-### Structure of Content
+Fill in the following information in the **Manual** tab:
 
-There are two ways to upload Content into Konfig. Both ways follow a consistent structure as follows:
-
-- **ID: string**
-
-Each content needs an ID to be used as a unique reference. This is often a unique ID that is used in the game's client to reference in-game assets. This can be any string value such as a path to an asset or a globally unique ID. Each ID needs to be unique and Konfig will not allow you to have two instances of Content with the same ID.
-
-- **Name: string**
-
-Each content needs a name for discovery. When an LOM selects a content in the [SKUs](doc:skus) menu, they will see content by name.
-
-- **Groups: collection of strings**
-
-Groups are effective for organizing your content and letting the LOM refer to collections of Content. Each piece of Content can have many groups.
-
-Example:
-
-```json
-{
-  ID: "armor-1"
-  Name: "Watermelon Helmet"
-  Group: ["Armor", "Low-Tier Armor", "Headgear", "Beginner"]
-}
+```plaintext
+ID: weapon-1
+Name: Wooden Club
+Groups: Beginner, Weapon
 ```
 
-### Manual Input
+and
 
-### CSV Upload
+```plaintext
+ID: weapon-2
+Name: Steel Sword
+Groups: Intermediate, Weapon
+```
+
+Once you are done you should see 2 rows in your **Content** table.
+
+![Content Table](/img/uploaded-content.png)
+
+If your screen looks like the above image then you have successfuly uploaded Content!

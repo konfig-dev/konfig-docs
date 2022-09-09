@@ -4,7 +4,11 @@ sidebar_position: 2
 
 # Create a Type
 
-A Type is used to describe the data model for a SKU. Konfig uses Types to generate forms for an LOM to make live updates. Types also help developers validate data that is returned from [Konfig's CDN](/reference/cdn).
+:::tip Before doing this Tutorial
+Complete the [Create Content](/tutorials/create-content) tutorial.
+:::
+
+A Type is describes the data model for a SKU. Konfig uses Types to generate input forms. Types also help developers validate data that is provided by an LOM and ultimatley returned from [Konfig's CDN](/reference/cdn) where a game client consumes the payload.
 
 :::danger Before you dive into creating your first type!
 **Configuring a Type should come after you have decided what the data model for
@@ -56,4 +60,21 @@ Fill out a name and check the **Required** box to make sure that our field is ne
 
 ![Add Number Field Button](/img/add-number-field-button.png)
 
-Now our transaction product has the fields **SKU Name** and **Price**. Lets now setup [Content](/reference/content/what-is-content) for our game so we can create a [Content Field](/reference/field/types/content)
+Now our transaction product has the fields **SKU Name** and **Price**. Assuming we finished the [Create Content](/tutorials/create-content) tutorial, lets create a [Content Field](/reference/field/content) to reference our in-game Content.
+
+Click **Add Field** and select **Content**
+
+![Add Content Field](/img/content-field.png)
+
+Name your Content field `Reward`, check the **Required** field, and fill in the
+**Group Filter** to be `Weapon` so all Content under the `Weapon` group shows
+when configuring a SKU. After you are done, click **Add**.
+
+![Configuring Content Field](/img/configure-content-field.png)
+
+### 4. Save your Type
+
+You should see 3 fields. Click **Save** in the top-right corner.
+![Save Type](/img/save-type.png)
+
+Congrats, you have created your first Type!
