@@ -4,9 +4,9 @@ sidebar_position: 0
 
 # What is a Type?
 
-Konfig introduces a **Type** system that helps you model data for SKUs. Using
+Konfig introduces a **Type** system that helps you model data for SKUs and other live events. Using
 Konfig's GUI you can easily describe infinitely complex data models to cater to
-your game's store.
+your game's store and gameplay.
 
 ### Structure of a Type
 
