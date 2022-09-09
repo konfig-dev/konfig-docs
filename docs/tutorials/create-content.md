@@ -5,7 +5,7 @@ title: Import Content [Dev]
 
 # Import Content
 
-To reference your game's content in Konfig, you first need to setup your content
+To reference your game's content (e.g. items, currencies, and characters, etc) in Konfig, you first need to setup your content
 in Konfig. In this tutorial we will add some dummy content to reference in our
 SKU later on.
 
