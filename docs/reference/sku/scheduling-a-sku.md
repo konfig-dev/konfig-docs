@@ -29,3 +29,5 @@ Konfig has pre-defined ways of scheduling a SKU. You can always check the [Sched
 ## **Recurring**: A very flexible option that allows you to turn offers on, off, and on again based on a recurrence rule
 
 ![Schedule Recurring](/img/schedule-recurring.png)
+
+In the above example, this SKU will run starting from September 9, 2022 for 10 days and will run every 2 weeks for a total of 10 times. 
