@@ -17,6 +17,8 @@ A text field is used to allow an LOM to input a string as a value
    [Leanplum](https://www.leanplum.com/), you can create a **segmentation
    variable** text field and write in the segmentation variable from Leanplum.
 
-### Configuration
+## Configuration
 
-#### This field is the title of this Type
+### This field is the title of this Type
+
+## Validation

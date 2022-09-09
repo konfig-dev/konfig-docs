@@ -7,3 +7,5 @@ sidebar_position: 1
 Often times you need to configure SKUs that have direct references to in-game
 content such as items or characters. To allow your LOMs to refer to in-game
 content while configuring SKUs, you should setup your Content in Konfig.
+
+[Learn about how to import your content here](/reference/content/creating-content)

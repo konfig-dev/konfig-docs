@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 ---
 
-# Type
+# What is a Type?
 
 Konfig introduces a **Type** system that helps you model data for SKUs. Using
 Konfig's GUI you can easily describe infinitely complex data models to cater to

@@ -1,5 +1,6 @@
 ---
 title: Schedule View
+sidebar_position: 3
 ---
 
 # Schedule View

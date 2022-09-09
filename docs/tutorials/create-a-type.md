@@ -12,7 +12,7 @@ Complete the [Import Content](/tutorials/create-content) tutorial.
 In Konfig, a **Type** describes the data model for a SKU. Konfig
 uses Types to generate input forms and validate data.
 
-[Learn more about Types here](/reference/type)
+[Learn more about Types here](/reference/type/what-is-a-type)
 
 :::danger Before diving into creating your first Type!
 **In practice, configuring a Type should come after you have decided what the data model for
@@ -49,7 +49,7 @@ Click **Text**.
 ![Add Text Field](/img/add-text-field.png)
 
 Fill the name field with `SKU Name` and check `This field is the title of this Type`. When a field is marked as the
-**title** of a [Type](/reference/type), Konfig will use the value of the field
+**title** of a [Type](/reference/type/what-is-a-type), Konfig will use the value of the field
 to identify SKUs of this Type in the dashboard. In this case we also want the
 **SKU Name** to be `Required` and `Unique` amongst all SKUs of the Type.
 

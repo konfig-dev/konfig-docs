@@ -9,6 +9,6 @@ requires iOS / Google Play approval.
 
 ![Product Field](/img/product-field.png)
 
-## Common Use Cases:
+## Common Use Cases
 
 1. Setting the **Price** of an IAP and **associating the IAP with a pre-approved iOS / Google Play product**.

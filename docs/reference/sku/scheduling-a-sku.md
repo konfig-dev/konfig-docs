@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Scheduling a SKU
 
 Konfig has pre-defined ways of scheduling a SKU.
