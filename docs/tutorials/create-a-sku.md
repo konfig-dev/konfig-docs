@@ -5,8 +5,7 @@ sidebar_position: 3
 # Create a SKU
 
 :::tip Before doing this Tutorial
-Complete the [Create Content](/tutorials/create-content) tutorial.
-Complete the [Create Content](/tutorials/create-a-type) tutorial.
+Complete the [Create Content](/tutorials/create-content) and [Create a Type](/tutorials/create-a-type) tutorial.
 :::
 
 ## 1. Navigate to the SKU Tab
