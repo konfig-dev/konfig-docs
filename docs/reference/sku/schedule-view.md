@@ -19,4 +19,4 @@ Konfig's schedule view allows you to see what offers ran in the past and what of
 
 4. On the **SKU** page, you can check to make sure it's the offer that you wanted to run on that day and if not, make any edits you need.
 
-![Schedule Step 4](/img/schedule-step-4.png)
+![Schedule Step 4](/img/schedule-step-4-v2.png)
