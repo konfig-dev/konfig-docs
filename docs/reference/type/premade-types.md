@@ -33,6 +33,10 @@ hitting a conversion product or gacha, completing a quest, etc. We recommend
 that you insert this type as a list in to your transaction product's, conversion
 product's, etc data model.
 
+### VIP System
+
+VIP systems are used to give spenders extra rewards for spending at certain thresholds over a certain time period. For example, you could configure a VIP system that gives bonus rewards if a user spends $1, $5, $20, and $100 a week.
+
 ### Quest
 
 Quests are a set of actions that a player will receive a reward for completing. Examples include "Collect 5 epic characters", "Spend 100 gems", "Complete level 10".
