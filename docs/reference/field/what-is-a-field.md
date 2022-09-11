@@ -4,9 +4,11 @@ sidebar_position: 1
 
 # What is a Field?
 
-A field is [metadata](https://en.wikipedia.org/wiki/Metadata) for Type that
-describes what data the Type accepts. In otherwords they are the key-value pair of
-**Name** and [Field Type](/category/field-types). Konfig uses Fields to validate data for the Dev and generate input forms for the LOM.
+Fields are [metadata](https://en.wikipedia.org/wiki/Metadata) for
+[Types](/category/type) that describe the key-value pairs in a
+[SKU](/category/sku). In otherwords Fields are used to validate data for
+developers and generate input forms for LOMs to build JSON payloads for your
+store.
 
 ![Fields](/img/fields.png)
 
