@@ -18,6 +18,6 @@ An Organization allows you to manage Users and Spaces together. We recommend eac
 
 # How to Select an Organization
 
-1. After creating an organization, you can select it in the drop down menu in the top right.
+1. After creating an organization, you can select it in the drop down menu in the top left.
 
 ![Select an Organization](/img/organization-3.png)
