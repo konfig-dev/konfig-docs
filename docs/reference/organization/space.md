@@ -7,6 +7,8 @@ sidebar_position: 2
 A Space houses content types (such as the Transaction Product type), entries (such as a particular IAP using the Transaction Product data model), and assets (such as an uploaded art file) for a particular game. Spaces are where all members of a game team get together and work on creating, QAing, and pushing offers and other live events into the game. We recommend that each game within a game studio get its own Space. 
 
 # How to Create a Space
+:::tip Only the **Owner** of the Organization can create a Space.
+:::
 
 1. Click on the **User Icon** in the top right and from the drop down select **Settings**.
 
