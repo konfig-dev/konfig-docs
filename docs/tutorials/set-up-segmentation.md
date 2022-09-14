@@ -11,6 +11,8 @@ Go through the [Import Content](/tutorials/create-content), [Create a Type](/tut
 
 Konfig's segmentation builder builds off existing player attributes that have already been defined in your game. Attributes might include player level, LTV, and days since last log-in.
 
+[Learn more about segmentation here](/category/segmentation)
+
 1. First we need to tell Konfig what player attributes the game client will be passing to the API. To do that, click on the **Segment** button on the top left to get taken to the Segment section.
 
 ![Segmentation Step 1](/img/segment-1.png)
