@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: Set Up Segmentation [Dev]
 ---
 
 # How to Set Up Segmentation [Dev]
