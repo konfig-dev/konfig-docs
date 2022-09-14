@@ -12,7 +12,9 @@ Go through the [Import Content](/tutorials/create-content), [Create a Type](/tut
 ## Konfig's CDN
 
 Konfig's CDN is used to retrieve currently scheduled SKUs for your store.
-Konfig's CDN accepts query parameters to help you test SKUs for you game's `Development`, `Staging`, and `Production `environments. To explore, see our [API Reference](https://docs.konfigthis.com/reference/get_skus)
+Konfig's CDN accepts query parameters to help you test SKUs for you game's `Development`, `Staging`, and `Production `environments.
+
+[Learn more about our CDN here](/reference/cdn/what-is-a-cdn)
 
 The following is an example of how you would retrieve the currently scheduled SKUs for your `Development` environment.
 
@@ -28,10 +30,7 @@ response = requests.get(url, headers=headers)
 print(response.text)
 ```
 
-## Platform Agnostic
-
-Konfig's is platform agnostic as it can server data to any client whether it's Browser, Android, or iOS.
-
 ### Example
 
-To see a web-based example of a store that is hooked up to Konfig's CDN, see [https://github.com/konfig-dev/konfig-demo](https://github.com/konfig-dev/konfig-demo/blob/master/pages/index.tsx#L69).
+To see a browser-based example of a store that is hooked up to Konfig's CDN, see
+[https://github.com/konfig-dev/konfig-demo](https://github.com/konfig-dev/konfig-demo).
