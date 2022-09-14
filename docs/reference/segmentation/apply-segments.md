@@ -46,8 +46,8 @@ Complete the steps in [Set Up Segmentation](/reference/segmentation/set-up-segme
 
 10. Then hit **Save** and now you've successfully applied segmentation to your offer!
 
-![Segmentation Step 9](/img/segment-14.png)
+![Segmentation Step 9](/img/segment-15.png)
 
 11. If you look on the SKU itself in the **SKU** section, you can see the segmentation has been automatically applied.
 
-![Segmentation Step 10](/img/segment-15.png)
+![Segmentation Step 10](/img/segment-16.png)
