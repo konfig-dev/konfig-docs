@@ -1,11 +1,12 @@
 ---
-sidebar_position: 3
-title: Apply Segmentation [LOM]
+sidebar_position: 8
+title: Apply Segmentation [LOM] [Advanced]
 ---
 
 # How to Apply Segmentation [LOM]
+
 :::tip Before doing this Tutorial
-Complete the steps in [Set Up Segmentation](/reference/segmentation/set-up-segmentation).
+Complete the steps in [Set Up Segmentation](/tutorials/set-up-segmentation).
 :::
 
 1. We will be creating a lapsed spender segmentation and applying it to a Test SKU. First click on the **+ Segment** tab on the top left to get the segmentation builder.
@@ -32,7 +33,7 @@ Complete the steps in [Set Up Segmentation](/reference/segmentation/set-up-segme
 
 ![Segmentation Step 6](/img/segment-11.png)
 
-7. Click on the **Select Player Field(s)** form again, select the **last-log-in** segmentation variable, and fill it out. Since we're targeting lapsed spenders, I will select **on or before** and **September 10, 2022 12:00 AM UTC**. This means I'm targeting players that have both LTV > $1,000 and haven't logged in to the game since Septeber 10, 2022.
+7. Click on the **Select Player Field(s)** form again, select the **last-log-in** segmentation variable, and fill it out. Since we're targeting lapsed spenders, I will select **on or before** and **September 10, 2022 12:00 AM UTC**. This means I'm targeting players that have both LTV > $1,000 and haven't logged in to the game since September 10, 2022.
 
 ![Segmentation Step 7](/img/segment-12.png)
 
