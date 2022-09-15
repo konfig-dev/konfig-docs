@@ -11,10 +11,9 @@ you provide.
 ## How to Use
 
 On the left-hand side you can enter parameters you want to use to test your
-space. By default the `env` and `space` parameters are filled in for you.
-
-Notice that the query explorer also generates parameters for any fields you setup in your
-Player Type [(tutorial here)](/tutorials/set-up-segmentation).
+space. By default the `env` and `space` parameters are filled in for you. Notice
+that the query explorer also generates parameters for any fields you setup in
+your Player Type [(tutorial here)](/tutorials/set-up-segmentation).
 
 ![Query Explorer](/img/query-explorer.png)
 
