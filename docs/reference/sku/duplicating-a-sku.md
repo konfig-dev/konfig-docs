@@ -1,3 +1,8 @@
+---
+title: Duplicating a SKU
+sidebar_position: 3
+---
+
 # Duplicating a SKU
 
 Often times you need to copy an existing SKU as a template.
