@@ -1,3 +1,8 @@
+---
+title: Webhook Endpoints
+sidebar_position: 6
+---
+
 # Webhook Endpoints
 
 Webhooks allow you to recieve data from Konfig by configuring an endpoint for
