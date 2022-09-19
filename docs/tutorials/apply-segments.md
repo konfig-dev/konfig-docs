@@ -52,3 +52,7 @@ Complete the steps in [Set Up Segmentation](/tutorials/set-up-segmentation).
 11. If you look on the SKU itself in the **SKU** section, you can see the segmentation has been automatically applied.
 
 ![Segmentation Step 10](/img/segment-16.png)
+
+Now that you have applied your first segment, a developer can use the [Query
+Explorer](/reference/cdn/query-explorer) to test out Konfig's CDN with the
+segments applied.
