@@ -8,6 +8,20 @@ sidebar_position: 1
 Konfig is a tool for game developers to build in-game stores and live ops
 managers (LOMs) to configure in-app purchases at scale in minutes.
 
+## Features
+
+- [Flexible Scheduling](/reference/sku/scheduling-a-sku)
+- [Player Segmentation](/tutorials/set-up-segmentation)
+- Generated Forms for pushing SKUs
+- [Content Sheet](/reference/content/creating-content)
+- Product IDs (Apple/Google App Store Integration)
+- No-Code/Easy Data Modeling
+- Data Validation (Pre-built & Custom)
+- Development, Staging, and Production Environments
+- [Pre-built Templates](/reference/type/premade-types)
+- Optimal Caching / CDN Behavior
+- Managed Cloud Infrastructure
+
 ## Architecture
 
 Konfig is carefully designed to account for every part of building your store.
