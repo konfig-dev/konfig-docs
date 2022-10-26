@@ -1,6 +1,6 @@
 # What is Personalization?
 
-**Personalization is feature in Konfig'feature that can automatically optimize the best SKU to show your players based on any custom metric.** In minutes you can setup advanced personalization in the dashboard and let Konfig do your job!
+**Konfig's personalization automatically optimizes the best SKU to show your players based on any custom metric.** In minutes you can setup advanced personalization and let Konfig do the hard work of improving your KPIs!
 
 Examples of custom metrics are:
 
