@@ -1,8 +1,9 @@
 # Getting Started
 
-1. Clone an example Konfig configuration repo. This repo contains specific
-   configurations for producing custom supporting `.java` files to specially
-   construct API requests.
+1. Clone the example Konfig configuration repo
+   (https://github.com/konfig-dev/snaptrade-sdks). This particular repo contains
+   specific configurations for producing custom supporting `.java` files to
+   specially construct API requests.
 
 ```bash
 ❯ git clone https://github.com/konfig-dev/snaptrade-sdks.git
