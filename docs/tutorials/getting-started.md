@@ -10,6 +10,52 @@
 ❯ cd snaptrade-sdks
 ```
 
+This repo contains a `konfig.yaml` file which contains a configuration for Konfig to generate your SDKs. It also has a `templates/` directory which hold template files for different generators.
+
+```bash
+❯ tree
+.
+├── konfig.yaml
+└── templates
+    └── java
+        ├── ApiClient.mustache
+        ├── Configuration.mustache
+        ├── JSON.mustache
+        ├── build.gradle.mustache
+        └── gitignore.mustache
+
+2 directories, 6 files
+```
+
+The `konfig.yaml` file looks like this. It contains configurations for
+preprocessing your OpenAPI Spec (OAS) and generator-specific values such as
+`groupId` and `artifactId` for `java`.
+
+```bash
+❯ cat konfig.yaml
+filterQueryParams:
+  - clientId
+  - timestamp
+filterTags:
+  - Webhooks
+allObjectsHaveAdditionalProperties: true
+generators:
+  java:
+    files:
+      gitignore.mustache:
+        destinationFilename: .gitignore
+      Configuration.mustache:
+        destinationFilename: src/main/java/com/snaptrade/client/Configuration.java
+      ApiClient.mustache:
+        destinationFilename: src/main/java/com/snaptrade/client/ApiClient.java
+      build.gradle.mustache:
+        destinationFilename: build.gradle
+      JSON.mustache:
+        destinationFilename: src/main/java/com/snaptrade/client/JSON.java
+    groupId: com.snaptrade
+    artifactId: snaptrade-java-sdk-cli-generated
+```
+
 2. Install Konfig's CLI.
 
 ```bash
@@ -28,7 +74,7 @@ Password: **************
 Successfuly logged in as dylan@konfigthis.com
 ```
 
-5. Generate SDKs. Note that you need to provide your own OpenAPI Spec to generate the SDK.
+5. Generate SDKs. You need to provide your own OAS to generate SDKs.
 
 ```
 ❮ konfig generate -o /tmp/snaptrade-sdks -c ./ -i PATH_TO_OPENAPI_SPEC
@@ -46,4 +92,5 @@ build.gradle            gradle                  pom.xml
 build.sbt               gradle.properties       settings.gradle
 ```
 
-Notice that every configured generator will produce its own directory based on its name. In this case we only configured the `java` generator so only a `java` SDK was generated.
+Every generator will produce its a directory with its name. In this case we only
+configured the `java` generator so only a `java` directory was created.
