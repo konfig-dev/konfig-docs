@@ -27,9 +27,9 @@ This repo contains a `konfig.yaml` file which contains a configuration for Konfi
 2 directories, 6 files
 ```
 
-The `konfig.yaml` file looks like this. It contains configurations for
-preprocessing your OpenAPI Spec (OAS) and generator-specific values such as
-`groupId` and `artifactId` for `java`.
+The `konfig.yaml` contains configurations for preprocessing your OpenAPI Spec
+(OAS) and generator-specific values such as `groupId` and `artifactId` for
+`java`.
 
 ```bash
 ❯ cat konfig.yaml
