@@ -47,15 +47,15 @@ generators:
       gitignore.mustache:
         destinationFilename: .gitignore
       Configuration.mustache:
-        destinationFilename: src/main/java/com/snaptrade/client/Configuration.java
+        destinationFilename: src/main/java/com/konfigthis/client/Configuration.java
       ApiClient.mustache:
-        destinationFilename: src/main/java/com/snaptrade/client/ApiClient.java
+        destinationFilename: src/main/java/com/konfigthis/client/ApiClient.java
       build.gradle.mustache:
         destinationFilename: build.gradle
       JSON.mustache:
-        destinationFilename: src/main/java/com/snaptrade/client/JSON.java
-    groupId: com.snaptrade
-    artifactId: snaptrade-java-sdk-cli-generated
+        destinationFilename: src/main/java/com/konfigthis/client/JSON.java
+    groupId: com.konfigthis
+    artifactId: konfigthis-java-sdk
 ```
 
 2. Install Konfig's CLI.
