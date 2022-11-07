@@ -10,7 +10,9 @@
 ❯ cd snaptrade-sdks
 ```
 
-This repo contains a `konfig.yaml` file which contains a configuration for Konfig to generate your SDKs. It also has a `templates/` directory which hold template files for different generators.
+This repo contains a `konfig.yaml` file which contains a configuration for
+Konfig to generate your SDKs. It also has a `templates/` directory which holds
+template files for different generators.
 
 ```bash
 ❯ tree
