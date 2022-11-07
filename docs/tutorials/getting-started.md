@@ -1,13 +1,13 @@
 # Getting Started
 
 1. Clone the example Konfig configuration repo
-   (https://github.com/konfig-dev/snaptrade-sdks). This particular repo contains
+   (https://github.com/konfig-dev/getting-started-example). This particular repo contains
    specific configurations for producing supporting `.java` files to specially
    construct API requests with a cryptographic signature.
 
 ```bash
-❯ git clone https://github.com/konfig-dev/snaptrade-sdks.git
-❯ cd snaptrade-sdks
+❯ git clone https://github.com/konfig-dev/getting-started-example.git
+❯ cd getting-started-example
 ```
 
 This repo contains a `konfig.yaml` file which contains a configuration for
@@ -79,20 +79,20 @@ Successfuly logged in as dylan@konfigthis.com
 5. Generate SDKs. You need to provide your own OAS to generate SDKs.
 
 ```
-❮ konfig generate -o /tmp/snaptrade-sdks -c ./ -i PATH_TO_OPENAPI_SPEC
+❮ konfig generate -o /tmp/getting-started-example -c ./ -i PATH_TO_OPENAPI_SPEC
 Generating SDKs... done
 Downloading SDKs... done
 Extracting SDKs... done
 
-❯ ls /tmp/snaptrade-sdks/
+❯ ls /tmp/getting-started-example/
 java
 
-❯ ls /tmp/snaptrade-sdks/java
+❯ ls /tmp/getting-started-example/java
 README.md               docs                    gradlew                 src
 api                     git_push.sh             gradlew.bat
 build.gradle            gradle                  pom.xml
 build.sbt               gradle.properties       settings.gradle
 ```
 
-Every generator will produce its a directory with its name. In this case we only
+Every generator will produce a directory named after itself. In this case we only
 configured the `java` generator so only a `java` directory was created.
