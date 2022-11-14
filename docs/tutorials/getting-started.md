@@ -58,7 +58,7 @@ generators:
     artifactId: konfigthis-java-sdk
 ```
 
-2. Install Konfig's CLI.
+2. Install [Konfig's CLI](https://www.npmjs.com/package/konfig-cli).
 
 ```bash
 ❯ npm install -g konfig-cli
