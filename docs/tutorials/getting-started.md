@@ -2,8 +2,7 @@
 
 1. Clone the example Konfig configuration repo
    (https://github.com/konfig-dev/getting-started-example). This particular repo contains
-   specific configurations for producing supporting `.java` files to specially
-   construct API requests with a cryptographic signature.
+   the configuration for producing Java, TypeScript, and Python SDKs.
 
 ```bash
 ❯ git clone https://github.com/konfig-dev/getting-started-example.git
@@ -11,22 +10,14 @@
 ```
 
 This repo contains a `konfig.yaml` file which contains a configuration for
-Konfig to generate your SDKs. It also has a `templates/` directory which holds
-template files for different generators.
+Konfig to generate your SDKs.
 
 ```bash
 ❯ tree
 .
-├── konfig.yaml
-└── templates
-    └── java
-        ├── ApiClient.mustache
-        ├── Configuration.mustache
-        ├── JSON.mustache
-        ├── build.gradle.mustache
-        └── gitignore.mustache
+└── konfig.yaml
 
-2 directories, 6 files
+0 directories, 1 file
 ```
 
 The `konfig.yaml` contains configurations for preprocessing your OpenAPI Spec
@@ -35,27 +26,23 @@ The `konfig.yaml` contains configurations for preprocessing your OpenAPI Spec
 
 ```bash
 ❯ cat konfig.yaml
-filterQueryParams:
-  - clientId
-  - timestamp
-filterTags:
-  - Webhooks
-allObjectsHaveAdditionalProperties: true
+allObjectsHaveAdditionalProperties:
+  requestBody: false
 generators:
   java:
-    files:
-      gitignore.mustache:
-        destinationFilename: .gitignore
-      Configuration.mustache:
-        destinationFilename: src/main/java/com/konfigthis/client/Configuration.java
-      ApiClient.mustache:
-        destinationFilename: src/main/java/com/konfigthis/client/ApiClient.java
-      build.gradle.mustache:
-        destinationFilename: build.gradle
-      JSON.mustache:
-        destinationFilename: src/main/java/com/konfigthis/client/JSON.java
+    version: 1.0.0
     groupId: com.konfigthis
-    artifactId: konfigthis-java-sdk
+    artifactId: tutorial-java-sdk
+  python:
+    version: 1.0.0
+    packageName: tutorial_client
+    projectName: tutorial-python-sdk
+  typescript:
+    version: 1.0.0
+    npmName: tutorial-typescript-sdk
+    git:
+      userId: MY_GIT_USER_ID
+      repoId: MY_GIT_REPO_ID
 ```
 
 2. Install [Konfig's CLI](https://www.npmjs.com/package/konfig-cli).
@@ -79,20 +66,19 @@ Successfuly logged in as dylan@konfigthis.com
 5. Generate SDKs. You need to provide your own OAS to generate SDKs.
 
 ```
-❮ konfig generate -o /tmp/getting-started-example -c ./ -i PATH_TO_OPENAPI_SPEC
-Generating SDKs... done
-Downloading SDKs... done
+❯ konfig generate -o /tmp/sdks -c ./ -i PATH_TO_OPENAPI_SPEC
+Generating java, python, typescript SDKs... done
+Downloading 3 SDKs... done
+Deleting output directory... done
 Extracting SDKs... done
 
-❯ ls /tmp/getting-started-example/
-java
+❯ ls /tmp/sdks
+java                    python-prior            typescript-axios
 
-❯ ls /tmp/getting-started-example/java
-README.md               docs                    gradlew                 src
-api                     git_push.sh             gradlew.bat
-build.gradle            gradle                  pom.xml
-build.sbt               gradle.properties       settings.gradle
+❯ ls /tmp/sdks/java
+README.md               build.sbt               gradle                  gradlew.bat             src
+api                     docs                    gradle.properties       pom.xml
+build.gradle            git_push.sh             gradlew                 settings.gradle
 ```
 
-Every generator will produce a directory named after itself. In this case we only
-configured the `java` generator so only a `java` directory was created.
+Every generator will produce a directory named after itself.
