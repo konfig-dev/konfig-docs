@@ -12,3 +12,5 @@ in the most popular languages.
 Today we have a [CLI](https://www.npmjs.com/package/konfig-cli) that can get you
 started in minutes but still handle any level of customization that you need
 through simple configuration.
+
+We currently support Java, Python, Typescript, Go, and PHP.
