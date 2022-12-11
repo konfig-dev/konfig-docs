@@ -8,6 +8,12 @@ There are three ways to lint your spec:
 
 ## GitHub Action
 
+:::info
+
+No setup is required besides setting up GitHub workflow. The latest [linting ruleset](https://www.npmjs.com/package/konfig-spectral-ruleset) will always be used.
+
+:::
+
 To setup linting simply place the following configuration under `.github/workflows/konfig-lint.yaml` or merge to an existing GitHub workflow.
 
 ```yaml
@@ -95,6 +101,22 @@ To update your ruleset to the latest verson simply run:
 
 ```bash
 konfig init -s
+```
+
+And commit the updated ruleset:
+
+```bash
+❯ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .konfig/ruleset.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 :::
