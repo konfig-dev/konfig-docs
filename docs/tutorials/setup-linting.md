@@ -89,6 +89,16 @@ nothing added to commit but untracked files present (use "git add" to track)
  create mode 100644 .vscode/settings.json
 ```
 
+:::info
+
+To update your ruleset to the latest verson simply run:
+
+```bash
+konfig init -s
+```
+
+:::
+
 ### VSCode Extension
 
 When opening VSCode to your repo, you will be prompted to install
