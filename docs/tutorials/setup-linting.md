@@ -45,7 +45,8 @@ jobs:
         run: konfig lint path/to/api.yaml # replace api.yaml with relative path to your OpenAPI Spec
 ```
 
-Now on every PR or commit to your production branch you will run the following job that fails if any warnings or errors occur when linting your spec:
+Now on every PR or commit to your production branch the following a job will
+fail if any warnings or errors occur when linting your spec:
 
 ![GitHub Action Lint Error](/img/github-action-lint-error.png)
 
