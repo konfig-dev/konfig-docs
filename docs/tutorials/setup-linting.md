@@ -14,7 +14,16 @@ No setup is required besides setting up GitHub workflow. The latest [linting rul
 
 :::
 
-To setup linting simply place the following configuration under `.github/workflows/konfig-lint.yaml` or merge to an existing GitHub workflow.
+To setup GitHub Action for your repository run:
+
+```bash
+❯ konfig init -a
+? What is the name of your main branch? (ex. "main" or "master") main
+? What is the relative path to your spec from repo root? (ie. "<GIT_REPO>/path/to/api.yaml") api.yaml
+Setting up GitHub Action for linting OpenAPI Spec... done
+```
+
+You will see a similar file show up under `.github/workflows/konfig-lint.yaml`
 
 ```yaml
 name: "konfig-lint-openapi-spec"
@@ -22,7 +31,7 @@ on: # rebuild any PRs and main branch changes
   pull_request:
   push:
     branches:
-      - main # replace this with the name of your production branch
+      - main # replaced with the name of your production branch
 jobs:
   konfig-lint-openapi-spec: # make sure spec passes konfig lint
     runs-on: ubuntu-latest
@@ -42,7 +51,31 @@ jobs:
       - name: Initialize Linting Rules
         run: konfig init -s
       - name: Lint OpenAPI Spec
-        run: konfig lint path/to/api.yaml # replace api.yaml with relative path to your OpenAPI Spec
+        run: konfig lint path/to/api.yaml # replaced with relative path to your OpenAPI Spec
+```
+
+Now commit and push the generated file:
+
+```bash
+~/Git/my-repo
+❯ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .github/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+~/Git/my-repo
+❯ git add -A
+
+~/Git/my-repo
+❯ git commit -m "Commit Konfig lint GitHub action"
+[master 83d1f7e] Commit Konfig lint GitHub action
+ 1 file changed, 26 insertions(+)
+ create mode 100644 .github/workflows/konfig-lint.yaml
 ```
 
 Now on every PR or commit to your production branch the following a job will
@@ -55,7 +88,7 @@ fail if any warnings or errors occur when linting your spec:
 Ensure you have the `konfig-cli` installed by running
 
 ```bash
-npm install -g konfig-cli@0.0.110
+npm install -g konfig-cli
 ```
 
 Initialize your target repository (the one that has your OpenAPI spec) with:
@@ -104,7 +137,7 @@ To update your ruleset to the latest verson simply run:
 konfig init -s
 ```
 
-And commit the updated ruleset:
+And commit the updated ruleset to share with your team:
 
 ```bash
 ❯ git status
