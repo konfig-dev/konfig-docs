@@ -6,6 +6,14 @@ There are three ways to lint your spec:
 2. [VSCode Extension](setup-linting#vscode-extension-or-cli) (Recommended)
 3. [CLI](setup-linting#vscode-extension-or-cli)
 
+## Required Setup
+
+Ensure you have the `konfig-cli` installed by running
+
+```bash
+npm install -g konfig-cli
+```
+
 ## GitHub Action
 
 :::info
@@ -84,12 +92,6 @@ fail if any warnings or errors occur when linting your spec:
 ![GitHub Action Lint Error](/img/github-action-lint-error.png)
 
 ## VSCode Extension or CLI
-
-Ensure you have the `konfig-cli` installed by running
-
-```bash
-npm install -g konfig-cli
-```
 
 Initialize your target repository (the one that has your OpenAPI spec) with:
 
