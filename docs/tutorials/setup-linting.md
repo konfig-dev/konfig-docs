@@ -38,7 +38,7 @@ jobs:
     env:
       CLI_VERSION: 0.0.111
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Cache node_modules
         id: cache-npm
         uses: actions/cache@v3
