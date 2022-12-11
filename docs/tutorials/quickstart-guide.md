@@ -1,4 +1,4 @@
-# Getting Started
+# Generate SDKs from an example repository
 
 1. Clone the example Konfig configuration repo
    (https://github.com/konfig-dev/getting-started-example). This particular repo contains
