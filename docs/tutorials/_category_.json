@@ -1,6 +1,6 @@
 {
   "label": "Tutorials",
-  "position": 2,
+  "position": 1,
   "link": {
     "type": "generated-index",
     "description": "Go through the tutorials to generate your first **SDK**"
