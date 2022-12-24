@@ -2,9 +2,9 @@
 
 There are three ways to lint your spec:
 
-1. [GitHub Action](setup-linting#github-action)
-2. [VSCode Extension](setup-linting#vscode-extension-or-cli)
-3. [CLI](setup-linting#vscode-extension-or-cli)
+1. [GitHub Action](setup-linting#github-action-setup)
+2. [VSCode Extension](setup-linting#vscode-extension-or-cli-setup)
+3. [CLI](setup-linting#vscode-extension-or-cli-setup)
 
 ## Required Setup
 
@@ -14,7 +14,7 @@ Ensure you have the `konfig-cli` installed by running
 npm install -g konfig-cli
 ```
 
-## GitHub Action
+## GitHub Action Setup
 
 :::info
 
@@ -86,12 +86,14 @@ nothing added to commit but untracked files present (use "git add" to track)
  create mode 100644 .github/workflows/konfig-lint.yaml
 ```
 
+### Linting with GitHub Action
+
 On every PR or commit to your production branch the following a job will
 fail if any warnings or errors occur when linting your spec:
 
 ![GitHub Action Lint Error](/img/github-action-lint-error.png)
 
-## VSCode Extension or CLI
+## VSCode Extension or CLI Setup
 
 Initialize your target repository (the one that has your OpenAPI spec) with:
 
@@ -157,7 +159,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 :::
 
-### VSCode Extension
+### Linting with VSCode Extension
 
 When opening VSCode to your repo, you will be prompted to install
 
@@ -169,7 +171,7 @@ When viewing any OpenAPI spec, you will see inline errors:
 
 ![VSCode Error](/img/vscode-lint-error.png)
 
-### CLI
+### Linting with CLI
 
 To lint with CLI run `konfig lint`.
 
