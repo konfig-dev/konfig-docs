@@ -62,7 +62,7 @@ jobs:
         run: konfig lint path/to/api.yaml # replaced with relative path to your OpenAPI Spec
 ```
 
-Now commit and push the generated file:
+Commit and push the generated file:
 
 ```bash
 ~/Git/my-repo
@@ -86,7 +86,7 @@ nothing added to commit but untracked files present (use "git add" to track)
  create mode 100644 .github/workflows/konfig-lint.yaml
 ```
 
-Now on every PR or commit to your production branch the following a job will
+On every PR or commit to your production branch the following a job will
 fail if any warnings or errors occur when linting your spec:
 
 ![GitHub Action Lint Error](/img/github-action-lint-error.png)
@@ -165,7 +165,7 @@ When opening VSCode to your repo, you will be prompted to install
 
 Click `Install` to install the Spectral extension.
 
-Now when viewing any OpenAPI spec, you will see inline errors:
+When viewing any OpenAPI spec, you will see inline errors:
 
 ![VSCode Error](/img/vscode-lint-error.png)
 
@@ -176,7 +176,7 @@ To lint with CLI run `konfig lint`.
 ```bash
 ❯ konfig lint api.yaml
 
-/Users/dylanhuang/Git/konfig-monorepo/customers/acme/acme-sdks/api.yaml
+/api.yaml
  22:10  warning  operation-operationId  Operation must have "operationId" for generated SDK method names.  paths./pet.post
 
 ✖ 1 problem (0 errors, 1 warning, 0 infos, 0 hints)
