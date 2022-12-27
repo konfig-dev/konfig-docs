@@ -25,6 +25,7 @@ const config = {
             specPath:
               "../konfig-dash/packages/konfig-openapi-spec/dist/spec.yaml", // path or URL to the OpenAPI spec
             outputDir: "docs/api-reference", // output directory for generated *.mdx and sidebar.js files
+            proxy: "https://cors.pan.dev",
             sidebarOptions: {
               groupPathsBy: "tag",
               categoryLinkSource: "tag",
