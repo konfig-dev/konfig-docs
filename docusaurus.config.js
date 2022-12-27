@@ -27,7 +27,7 @@ const config = {
             outputDir: "docs/api-reference", // output directory for generated *.mdx and sidebar.js files
             sidebarOptions: {
               groupPathsBy: "tag",
-              sidebarCollapsible: true,
+              categoryLinkSource: "tag",
             },
           },
         },
