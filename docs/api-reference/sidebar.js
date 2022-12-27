@@ -1,0 +1,1 @@
+module.exports = [{"type":"doc","id":"api-reference/konfigs-rest-api"},{"type":"category","label":"Linting","link":{"type":"doc","id":"api-reference/linting"},"items":[{"type":"doc","id":"api-reference/lint-your-open-api-spec","label":"Lint your OpenAPI Spec","className":"api-method post"}]}];

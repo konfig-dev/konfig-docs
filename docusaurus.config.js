@@ -12,7 +12,28 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
-  plugins: [require.resolve("docusaurus-plugin-image-zoom")],
+  themes: ["docusaurus-theme-openapi-docs"],
+  plugins: [
+    [
+      "docusaurus-plugin-openapi-docs",
+      {
+        id: "openapi",
+        docsPluginId: "classic", // e.g. "classic" or the plugin-content-docs id
+        config: {
+          konfig: {
+            // "konfig" is considered the <id> that you will reference in the CLI
+            specPath:
+              "../konfig-dash/packages/konfig-openapi-spec/dist/spec.yaml", // path or URL to the OpenAPI spec
+            outputDir: "docs/api-reference", // output directory for generated *.mdx and sidebar.js files
+            sidebarOptions: {
+              groupPathsBy: "tag",
+              sidebarCollapsible: true,
+            },
+          },
+        },
+      },
+    ],
+  ],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -38,6 +59,8 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/konfig-dev/konfig-docs/tree/master/",
+          docItemComponent: "@theme/ApiItem",
+          docLayoutComponent: "@theme/DocPage",
         },
         blog: false,
         theme: {
@@ -54,27 +77,33 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       navbar: {
         title: "Konfig",
         logo: {
           alt: "Konfig Logo",
           src: "img/favicon.png",
         },
-        // items: [
-        //   // {
-        //   //   type: "doc",
-        //   //   docId: "intro",
-        //   //   position: "left",
-        //   //   label: "Docs",
-        //   // },
-        //   // { to: "/blog", label: "Blog", position: "left" },
-        //   // {
-        //   //   href: "https://github.com/facebook/docusaurus",
-        //   //   label: "GitHub",
-        //   //   position: "right",
-        //   // },
-        // ],
+        items: [
+          {
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Documentation",
+          },
+          {
+            type: "doc",
+            docId: "/category/api-reference",
+            position: "left",
+            label: "API Reference",
+          },
+        ],
       },
+
       footer: {
         style: "light",
         links: [
@@ -136,17 +165,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      },
-      zoom: {
-        selector: ".markdown :not(em) > img",
-        background: {
-          light: "rgb(255, 255, 255)",
-          dark: "rgb(50, 50, 50)",
-        },
-        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
-        config: {
-          margin: 70,
-        },
+        additionalLanguages: ["ruby", "csharp", "php"],
       },
     }),
 };
