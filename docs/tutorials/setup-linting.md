@@ -1,6 +1,6 @@
 # Setup linting for your OpenAPI Spec
 
-There are three ways to lint your spec:
+There are four ways to lint your spec:
 
 1. [GitHub Action](setup-linting#github-action-setup)
 2. [VSCode Extension](setup-linting#vscode-extension-or-cli-setup)
