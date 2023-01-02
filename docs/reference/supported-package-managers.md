@@ -12,6 +12,8 @@
 | Swift                   | [Swift Package Index](https://swiftpackageindex.com/) / [GitHub](https://github.com/) |                |                                       |
 | Go                      | [Go Packages](https://pkg.go.dev/) / [GitHub](https://github.com/)                    |                |                                       |
 
-Konfig will either publish to these package managers using our accounts or use
-your credentials / be added as maintainers. Let us know if you need any support
-while setting up any of these package manager credentials.
+To publish SDKs to the above package managers, Konfig can weither:
+
+- publish with our credentials
+- publish with your credentials
+- be added as mantainers to the SDK library
