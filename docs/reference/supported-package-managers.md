@@ -12,7 +12,7 @@
 | Swift                   | [Swift Package Index](https://swiftpackageindex.com/) / [GitHub](https://github.com/) |                |                                       |
 | Go                      | [Go Packages](https://pkg.go.dev/) / [GitHub](https://github.com/)                    |                |                                       |
 
-To publish SDKs to the above package managers, Konfig can weither:
+To publish SDKs to the above package managers, Konfig can either:
 
 - publish with our credentials
 - publish with your credentials
