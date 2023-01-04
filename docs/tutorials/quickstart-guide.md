@@ -95,7 +95,7 @@ generators:
 
 3. Signup for an account https://dash.konfigthis.com/signup.
 
-4. Login through the CLI
+4. Login through the CLI with `konfig login`
 
 ```bash
 ❯ konfig login
@@ -105,7 +105,7 @@ Password: **************
 Successfuly logged in as dylan@konfigthis.com
 ```
 
-5. Generate SDKs.
+5. Generate SDKs with `konfig generate`
 
 ```
 ❯ konfig generate
