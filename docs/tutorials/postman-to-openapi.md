@@ -10,7 +10,7 @@ Follow this tutorial if:
 Manual work is required to make sure your OAS passes Konfig's linter.
 :::
 
-## Setup
+## 1. Setup
 
 Ensure you have the `konfig-cli` installed by running
 
@@ -18,7 +18,7 @@ Ensure you have the `konfig-cli` installed by running
 npm install -g konfig-cli
 ```
 
-## Export Postman Collection
+## 2. Export Postman Collection to JSON
 
 Click the settings for the target Postman Collection and click "export":
 
@@ -28,7 +28,7 @@ Choose `Collection v2.1` and click `Export`.
 
 ![Export Postman Button](/img/export-postman-collection-button.png)
 
-## Convert Exported Postman Collection
+## 3. Convert Exported Postman Collection to OpenAPI Spec
 
 Once you have exported your collection to a `.json` file you can not convert it to an OAS `.yaml` file.
 
@@ -62,7 +62,7 @@ tags:
     description: >-
       Use approval and provisioning APIs to help Slack Admins work more
       effectively.
-# ...
+# ... unnecessary details omitted
 paths:
   /admin.users.setOwner:
     post:
@@ -98,10 +98,13 @@ paths:
           schema:
             type: string
           example: application/x-www-form-urlencoded
+# ... unnecessary details omitted
 ```
 
 </details>
 
+:::caution
 **The output of `konfig p2o` is low quality and should not be used to
 publish SDKs to your customers without manual editing**. To ensure Konfig can generate high quality
 SDKs you must make sure your OAS passes Konfig's linter. Follow directions on [how to run Konfig's linter here](/tutorials/setup-linting).
+:::
