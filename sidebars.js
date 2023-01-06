@@ -30,7 +30,11 @@ const sidebars = {
       link: {
         type: "generated-index",
       },
-      items: ["tutorials/quickstart-guide", "tutorials/setup-linting"],
+      items: [
+        "tutorials/quickstart-guide",
+        "tutorials/setup-linting",
+        "tutorials/postman-to-openapi",
+      ],
     },
     {
       type: "category",
