@@ -105,6 +105,7 @@ paths:
 
 :::caution
 **The output of `konfig p2o` is low quality and should not be used to
-publish SDKs to your customers without manual editing**. To ensure Konfig can generate high quality
-SDKs you must make sure your OAS passes Konfig's linter. Follow directions on [how to run Konfig's linter here](/tutorials/setup-linting).
+publish SDKs**. To ensure Konfig can generate high quality SDKs you must make
+sure your OAS passes Konfig's linter. Follow directions on [how to run Konfig's
+linter here](/tutorials/setup-linting).
 :::
