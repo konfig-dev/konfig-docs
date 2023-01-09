@@ -15,4 +15,22 @@ Today we have a [CLI](https://www.npmjs.com/package/konfig-cli) that can get you
 started in minutes but still handle any level of customization that you need
 through simple configuration.
 
-We currently support Java, Python, Typescript, C#, Kotlin, Swift, Go, Objective C, and PHP. If you need another language, please reach out to request it.
+### Langauge and OpenAPI Spec Support
+
+We currently support the following languages:
+
+- Java
+- Python
+- Typescript
+- C#
+- Kotlin
+- Swift
+- Go
+- Objective C
+- PHP
+
+We support all versions of OpenAPI Spec:
+
+- `2.0`
+- `3.0`
+- `3.1`

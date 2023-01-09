@@ -34,6 +34,7 @@ const sidebars = {
         "tutorials/quickstart-guide",
         "tutorials/setup-linting",
         "tutorials/postman-to-openapi",
+        "tutorials/automate-sdk-updates",
       ],
     },
     {
