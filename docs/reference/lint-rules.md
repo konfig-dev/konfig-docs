@@ -70,4 +70,4 @@ Paths "/a/{b}" and "/a/{c}" must not be equivalent.
 
 Two paths under the [PathObject](https://swagger.io/specification/#paths-object)
 must be distinguishable by their path parameters so that the API server can
-understand how to handle the operation.
+properly handle the correct operation.
