@@ -44,7 +44,7 @@ const sidebars = {
       link: {
         type: "generated-index",
       },
-      items: ["reference/supported-package-managers"],
+      items: ["reference/supported-package-managers", "reference/lint-rules"],
     },
   ],
   openApiSidebar: [
