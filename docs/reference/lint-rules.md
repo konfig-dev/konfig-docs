@@ -30,7 +30,7 @@ Could be integer type based on example. Ensure your types are correct.
 
 #### Explanation
 
-To generate SDKs every data type must be correct. To ensure correctness,
+Every data type describe in your OAS must be correct to generate working SDKs. To ensure correctness,
 Konfig's linter will check to see if examples could represent other data types.
 In the following example the string `"3291231"` could represent an `integer`
 type so a warning is thrown.
