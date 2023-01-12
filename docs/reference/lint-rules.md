@@ -2,6 +2,20 @@
 
 Reference of linting rules for [Konfig's OAS Linter](https://www.npmjs.com/package/konfig-spectral-ruleset)
 
+## empty-request-body-content
+
+#### Example
+
+```
+Empty request body content is not allowed for SDK generation
+```
+
+#### Explanation
+
+Request body with no media type is unsupported.
+
+---
+
 ## components-schemas-defined-oas3
 
 #### Example
