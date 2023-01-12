@@ -2,6 +2,21 @@
 
 Reference of linting rules for [Konfig's OAS Linter](https://www.npmjs.com/package/konfig-spectral-ruleset)
 
+## components-schemas-defined-oas3
+
+#### Example
+
+```
+APIs should define schemas for developer friendly SDK generation.
+```
+
+#### Explanation
+
+In OAS 3.x, use the [schemas field](https://swagger.io/specification/#components-object) to define a map of
+[schema objects](https://swagger.io/specification/#schema-object). This is important to generate native classes in generated SDKs.
+
+---
+
 ## operation-operationId
 
 #### Example
