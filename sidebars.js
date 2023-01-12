@@ -36,6 +36,7 @@ const sidebars = {
         "tutorials/postman-to-openapi",
         "tutorials/automate-sdk-updates",
         "tutorials/publish-sdks",
+        "tutorials/naming-operation-ids",
       ],
     },
     {
